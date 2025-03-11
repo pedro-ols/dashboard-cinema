@@ -1,9 +1,10 @@
-import styles from "./page.module.css";
+import styles from './page.module.css';
+import Header from '../components/header'
 
 export default function Home() {
   return (
     <div>
-      <h1 className={styles.title}>Hello, world</h1>
+      <Header/>
     </div>
   );
 }

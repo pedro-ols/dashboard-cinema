@@ -1,0 +1,55 @@
+/* Estilo do Header */
+.mainHeader {
+    background-color: #243b55;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+  }
+  
+  .logo h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .mainNav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+  
+  .mainNav ul li {
+    margin: 0.5rem;
+  }
+  
+  .mainNav ul li a {
+    color: #ddd;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: color 0.3s;
+  }
+  
+  .mainNav ul li a:hover,
+  .mainNav ul li a.active {
+    color: #fff;
+    border-bottom: 2px solid #63b3ed;
+  }
+  
+  .userInfo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .userName {
+    margin-right: 1rem;
+  }
+  
+  .userAvatar {
+    width: 40px;
+    height: 40px;
+    background-color: #63b3ed;
+    border-radius: 50%;
+  }
