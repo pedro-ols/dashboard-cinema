@@ -1,6 +1,6 @@
 /* Sidebar */
 .sidebar {
-    width: 100%;
+    width: 17%;
     background-color: #2c5282;
     color: #fff;
     padding: 1rem 0;
@@ -15,7 +15,7 @@
     list-style: none;
     margin-top: 1rem;
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column wrap;
   }
   
   .sidebarMenu ul li {

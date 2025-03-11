@@ -1,0 +1,226 @@
+/* Conteúdo principal */
+.content {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.welcomeBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Cards de resumo */
+.summaryCards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  flex: 1;
+  min-width: 250px;
+}
+
+.card h3 {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+  color: #4a5568;
+}
+
+.cardValue {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.cardChange {
+  font-size: 0.9rem;
+}
+
+.positive {
+  color: #48bb78;
+}
+
+.negative {
+  color: #e53e3e;
+}
+
+/* Containers de gráficos */
+.chartContainers {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.chartContainer {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  flex: 1;
+}
+
+.chartContainer h3 {
+  margin-bottom: 1rem;
+  color: #4a5568;
+}
+
+.chartPlaceholder {
+  height: 250px;
+  background-color: #f7fafc;
+  border: 1px dashed #cbd5e0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #a0aec0;
+}
+
+.chartPlaceholder::after {
+  content: "Gráfico";
+  font-size: 1.2rem;
+}
+
+/* Estatísticas de filmes */
+.movieStats {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+  overflow-x: auto;
+}
+
+.movieStats h3 {
+  margin-bottom: 1rem;
+  color: #4a5568;
+}
+
+.movieTable {
+  width: 100%;
+  min-width: 600px;
+}
+
+.movieTableHeader {
+  display: flex;
+  background-color: #edf2f7;
+  padding: 0.8rem;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.movieRow {
+  display: flex;
+  padding: 0.8rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.movieRow:last-child {
+  border-bottom: none;
+}
+
+.movieCell {
+  flex: 1;
+}
+
+/* Informações adicionais */
+.additionalInfo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.sessionBox,
+.concessionBox {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  flex: 1;
+  min-width: 100%;
+}
+
+.sessionBox h3,
+.concessionBox h3 {
+  margin-bottom: 1rem;
+  color: #4a5568;
+}
+
+.sessionList {
+  list-style: none;
+}
+
+.sessionList li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #e2e8f0;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.sessionList li:last-child {
+  border-bottom: none;
+}
+
+.sessionTime {
+  font-weight: bold;
+  color: #2b6cb0;
+  min-width: 60px;
+}
+
+.sessionMovie {
+  flex: 1;
+  padding: 0 1rem;
+  min-width: 150px;
+}
+
+.sessionRoom {
+  color: #718096;
+  min-width: 80px;
+}
+
+.sessionCapacity {
+  min-width: 120px;
+  text-align: right;
+}
+
+.concessionStats {
+  display: flex;
+  flex-direction: column;
+}
+
+.concessionItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #e2e8f0;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.concessionItem:last-child {
+  border-bottom: none;
+}
+
+.itemName {
+  font-weight: bold;
+  min-width: 150px;
+}
+
+.itemSales {
+  color: #2b6cb0;
+}
