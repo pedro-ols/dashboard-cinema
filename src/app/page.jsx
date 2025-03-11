@@ -2,14 +2,15 @@ import styles from './page.module.css';
 import Header from '@/components/header/index'
 import SideBar from '@/components/sidebar/index';
 import DashboardContent from '@/components/dashboardContent/index';
+import SummaryCards from '@/components/sumarryCards';
 
 export default function Home() {
   return (
     <div>
-      <Header/>
+      <Header />
       <main className={styles.dashboardContainer}>
-        <SideBar/>
-        <DashboardContent/>
+        <SideBar />
+        <DashboardContent />
       </main>
     </div>
   );
